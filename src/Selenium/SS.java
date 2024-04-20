@@ -18,7 +18,7 @@ public class SS {
 		
 		driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         
         WebElement un =driver.findElement(By.xpath("//input[@placeholder='Username']"));
         un.sendKeys("Admin");
